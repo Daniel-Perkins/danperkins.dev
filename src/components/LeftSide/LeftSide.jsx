@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 
-import "../styles/left-side.scss";
+import { LeftSideContainer } from "./Styles";
 
 const LeftSide = () => {
   return (
-    <div className="LeftSide">
+    <LeftSideContainer>
       <div className="about-me">
         <h3 className="sub-heading">ABOUT-ME</h3>
         <p className="about-text">
@@ -49,7 +49,7 @@ const LeftSide = () => {
         noHeader={true}
         noFooter={true}
       />
-    </div>
+    </LeftSideContainer>
   );
 };
 
