@@ -56,7 +56,6 @@ export const RightSideContainer = styled.div`
 
     p {
       font-size: 14px;
-      text-align: justify;
       line-height: 16px;
     }
 

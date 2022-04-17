@@ -6,7 +6,6 @@ export const LeftSideContainer = styled.div`
 
   .about-text {
     font-size: 14px;
-    text-align: justify;
     line-height: 16px;
   }
 
