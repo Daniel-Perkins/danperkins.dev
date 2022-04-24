@@ -9,19 +9,19 @@ const RightSide = () => {
       <div className="projects">
         <h3 className="sub-heading">MY-PROJECTS</h3>
         <div className="projects-container">
-          <a href="#">
+          <a href="/">
             <img src={template} alt="" />
             <p>Template-Project-1</p>
           </a>
-          <a href="#">
+          <a href="/">
             <img src={template} alt="" />
             <p>Template-Project-2</p>
           </a>
-          <a href="#">
+          <a href="/">
             <img src={template} alt="" />
             <p>Template-Project-3</p>
           </a>
-          <a href="#">
+          <a href="/">
             <img src={template} alt="" />
             <p>Template-Project-4</p>
           </a>

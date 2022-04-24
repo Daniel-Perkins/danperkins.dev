@@ -11,7 +11,7 @@ const Header = () => {
         <br />
         PERKINS
       </h1>
-      <img src={photo} alt="Photo of myself" className="photo" />
+      <img src={photo} alt="Myself" className="photo" />
       <div className="social-logos">
         <a href="https://github.com/Daniel-Perkins">
           <FontAwesomeIcon icon="fab fa-github" className="github-logo" />
@@ -19,11 +19,11 @@ const Header = () => {
         <a href="https://twitter.com/dperkinsdev">
           <FontAwesomeIcon icon="fab fa-twitter" className="twitter-logo" />
         </a>
-        <a href="#">
+        <a href="/">
           <FontAwesomeIcon icon="fab fa-linkedin" className="linkedin-logo" />
         </a>
         {/* Need to implement email sending feature */}
-        <a href="#">
+        <a href="/">
           <FontAwesomeIcon
             icon="fas fa-square-envelope"
             className="email-logo"

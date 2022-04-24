@@ -17,11 +17,11 @@ const LeftSide = () => {
           started coding in Python at 11 (Year 7).
         </p>
         <div className="contact-info">
-          <a href="#" className="download-button">
+          <a href="/" className="download-button">
             <FontAwesomeIcon icon="fas fa-download" />
             <p>Download My Resume</p>
           </a>
-          <a href="#" className="email-button">
+          <a href="/" className="email-button">
             <FontAwesomeIcon icon="fas fa-square-envelope" />
             <p>danperkinscs@gmail.com</p>
           </a>
