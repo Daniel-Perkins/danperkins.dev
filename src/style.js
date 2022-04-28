@@ -31,11 +31,42 @@ export const GlobalStyle = createGlobalStyle`
   /* App styles */
   body {
     margin: 70px auto;
-    width: 884px;
     border: 1px black solid;
   }
 
   main {
     display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: 884px) {
+    body {
+      width: 884px;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 884px) {
+    body {
+      margin: 5px;
+    }
+
+    main {
+      hr {
+        margin: 0;
+      }
+
+      justify-content: space-around;
+    }
+  }
+
+  @media (max-width: 640px) {
+    body {
+      margin: 5px;
+    }
+
+    main {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 `;

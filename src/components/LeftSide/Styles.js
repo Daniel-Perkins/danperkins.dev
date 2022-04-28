@@ -42,4 +42,9 @@ export const LeftSideContainer = styled.div`
       }
     }
   }
+
+  @media (max-width: 641px){
+    margin-left: 0;
+    margin-right: 0;
+  }
 `;
