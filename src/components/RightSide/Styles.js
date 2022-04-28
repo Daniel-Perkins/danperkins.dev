@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const RightSideContainer = styled.div`
   margin: 62px 32px 25px 0;
   width: min-content;
-  padding-left: 32px;
-  border-left: 1px solid black;
 
   .sub-heading {
     width: max-content;
@@ -79,10 +77,19 @@ export const RightSideContainer = styled.div`
       grid-template-columns: auto;
       margin: inherit 0;
     }
+
+    .working-on div {
+      flex-direction: column;
+
+      img {
+        margin: 30px 0;
+      }
+    }
   }
 
   @media (max-width: 600px) {
-    border-left: none;
+    margin-left: 0;
+    margin-right: 0;
 
     .projects-container {
       grid-template-columns: auto;

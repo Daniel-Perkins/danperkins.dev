@@ -49,6 +49,14 @@ export const GlobalStyle = createGlobalStyle`
     body {
       margin: 5px;
     }
+
+    main {
+      hr {
+        margin: 0;
+      }
+
+      justify-content: space-around;
+    }
   }
 
   @media (max-width: 640px) {

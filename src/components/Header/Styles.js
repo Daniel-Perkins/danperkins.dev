@@ -23,8 +23,8 @@ export const HeaderContainer = styled.div`
     width: 200px;
 
     display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
 
     a {
       justify-self: center;
@@ -37,12 +37,26 @@ export const HeaderContainer = styled.div`
     }
   }
 
-  @media (min-width: 641px) and (max-width: 1007px) {
-    height: 600px;
+  @media (min-width: 641px) and (max-width: 884px) {
+    .name {
+      font-size: 6vw;
+    }
+    .photo {
+      height: 150px;
+      width: 150px;
+    }
+    .social-logos {
+      height: 150px;
+      width: 150px;
+    }
   }
 
   @media (max-width: 640px) {
     height: 600px;
     flex-direction: column;
+
+    .name {
+      text-align: center;
+    }
   }
 `;

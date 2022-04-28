@@ -18,6 +18,7 @@ function App() {
       <Header />
       <main>
         <LeftSide />
+        <hr />
         <RightSide />
       </main>
     </React.Fragment>
