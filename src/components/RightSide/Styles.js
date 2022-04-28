@@ -2,8 +2,13 @@ import styled from "styled-components";
 
 export const RightSideContainer = styled.div`
   margin: 62px 32px 25px 0;
+  width: min-content;
   padding-left: 32px;
   border-left: 1px solid black;
+
+  .sub-heading {
+    width: max-content;
+  }
 
   .projects {
     margin-bottom: 29px;
@@ -66,6 +71,30 @@ export const RightSideContainer = styled.div`
       padding: 20px 0;
       border-top: 1px solid black;
       border-bottom: 1px solid black;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 884px) {
+    .projects-container {
+      grid-template-columns: auto;
+      margin: inherit 0;
+    }
+  }
+
+  @media (max-width: 600px) {
+    border-left: none;
+
+    .projects-container {
+      grid-template-columns: auto;
+      margin: inherit 0;
+    }
+
+    .working-on div {
+      flex-direction: column;
+
+      img {
+        margin: 30px 0;
+      }
     }
   }
 `;

@@ -36,4 +36,13 @@ export const HeaderContainer = styled.div`
       width: 75px;
     }
   }
+
+  @media (min-width: 641px) and (max-width: 1007px) {
+    height: 600px;
+  }
+
+  @media (max-width: 640px) {
+    height: 600px;
+    flex-direction: column;
+  }
 `;
