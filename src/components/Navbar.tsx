@@ -2,7 +2,7 @@ import { FaGithub, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-3">
+    <div className="flex justify-between mx-10 my-5">
       <h1 className="text-xl">Dan Perkins</h1>
 
       <div className="flex justify-between w-36">

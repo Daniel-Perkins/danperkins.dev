@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="flex flex-col items-center my-40">
       <div className="flex items-center justify-around w-full">
-        <div className="flex flex-col items-center justify-between h-64">
+        <div className="flex flex-col items-center justify-between h-64 p-2">
           <h1 className="font-light text-8xl">
             DAN
             <br />
