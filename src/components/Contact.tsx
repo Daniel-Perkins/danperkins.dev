@@ -25,11 +25,11 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col items-center m-16">
-      <div className="flex flex-col items-center m-16">
+      <div className="flex flex-col items-center mb-12 md:m-16">
         <h1 className="text-3xl">Contact Me</h1>
       </div>
-      <div className="flex items-center justify-between mx-32">
-        <div className="w-2/5">
+      <div className="flex flex-col items-center justify-center md:justify-around md:flex-row">
+        <div className="md:w-1/3">
           <h3 className="m-2 text-lg underline decoration-green-400 decoration-2">
             How to get in touch:
           </h3>
@@ -50,7 +50,7 @@ const Contact = () => {
             you get the best pricing and the best service.
           </p>
         </div>
-        <div className="w-2/5 p-4 shadow-2xl rounded-xl">
+        <div className="p-4 mt-10 shadow-2xl md:w-1/3 rounded-xl">
           <form onSubmit={sendEmail}>
             <input
               type="email"
