@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [result, showResult] = useState(false);
   const sendEmail = (e: any) => {
     e.preventDefault();
 
@@ -21,6 +22,7 @@ const Contact = () => {
         }
       );
     e.target.reset();
+    showResult(true);
   };
 
   return (
@@ -72,6 +74,14 @@ const Contact = () => {
               value="Send"
               className="w-full p-2 my-2 bg-green-400 rounded-lg"
             />
+
+            <div>
+              {result ? (
+                <h1 className="p-1 text-center text-green-500 border border-green-500 rounded-lg">
+                  Your message has been sent
+                </h1>
+              ) : null}
+            </div>
           </form>
         </div>
       </div>
