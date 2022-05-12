@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="flex justify-between mx-10 my-5">
       <h1 className="text-xl">Dan Perkins</h1>
 
-      <div className="flex justify-between w-36">
+      <div className="flex justify-between leading-loose w-36">
         <a href="/">Contact</a>
         <div className="flex items-center justify-between w-14">
           <a href="/">
