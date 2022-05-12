@@ -57,7 +57,7 @@ const Contact = () => {
           <form onSubmit={sendEmail}>
             <input
               type="email"
-              name="user_email"
+              name="from_email"
               placeholder="Your Email"
               className="w-full p-2 my-2 border rounded-lg"
             />
