@@ -6,12 +6,12 @@ const Navbar = () => {
       <h1 className="text-xl">Dan Perkins</h1>
 
       <div className="flex justify-between leading-loose w-36">
-        <a href="/">Contact</a>
+        <a href="#contact">Contact</a>
         <div className="flex items-center justify-between w-14">
-          <a href="/">
+          <a href="https://github.com/Daniel-Perkins">
             <FaGithub className="w-6 h-6" />
           </a>
-          <a href="/">
+          <a href="https://twitter.com/dperkinsdev">
             <FaTwitter className="w-6 h-6 " />
           </a>
         </div>

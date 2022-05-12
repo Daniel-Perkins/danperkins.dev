@@ -15,7 +15,10 @@ const MyWork = () => {
             My website is updated far less regularly than my twitter. For more
             info about what I am up to be sure to check it out.
           </p>
-          <a href="/" className="p-3 font-normal bg-green-400 rounded-xl w-max">
+          <a
+            href="https://twitter.com/dperkinsdev"
+            className="p-3 font-normal bg-green-400 rounded-xl w-max"
+          >
             Twitter
           </a>
         </div>
@@ -30,7 +33,10 @@ const MyWork = () => {
             you change your mind and want to go back to a previous version, you
             can.
           </p>
-          <a href="/" className="p-3 font-normal bg-green-400 rounded-xl w-max">
+          <a
+            href="https://github.com/Daniel-Perkins"
+            className="p-3 font-normal bg-green-400 rounded-xl w-max"
+          >
             Github
           </a>
         </div>

@@ -10,13 +10,13 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex">
-        <a href="/" className="p-2">
+        <a href="#contact" className="p-2">
           <FaMailBulk className="w-5 h-5" />
         </a>
-        <a href="/" className="p-2">
+        <a href="https://github.com/Daniel-Perkins" className="p-2">
           <FaGithub className="w-5 h-5" />
         </a>
-        <a href="/" className="p-2">
+        <a href="https://twitter.com/dperkinsdev" className="p-2">
           <FaTwitter className="w-5 h-5" />
         </a>
       </div>

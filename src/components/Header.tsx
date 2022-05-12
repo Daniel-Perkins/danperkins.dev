@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         <img src="portrait.png" alt="Portrait" className="h-72" />
       </div>
-      <a href="/" className="p-3 bg-green-400 mt-28 rounded-xl">
+      <a href="#contact" className="p-3 bg-green-400 mt-28 rounded-xl">
         Get In Touch
       </a>
     </div>

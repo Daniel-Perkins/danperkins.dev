@@ -24,7 +24,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col items-center m-16">
+    <div id="contact" className="flex flex-col items-center m-16">
       <div className="flex flex-col items-center mb-12 md:m-16">
         <h1 className="text-3xl">Contact Me</h1>
       </div>
@@ -38,7 +38,10 @@ const Contact = () => {
             <li>Use the form to quickly send an email to me</li>
             <li>
               DM me on{" "}
-              <a href="/" className="underline decoration-sky-500 text-sky-500">
+              <a
+                href="https://twitter.com/dperkinsdev"
+                className="underline decoration-sky-500 text-sky-500"
+              >
                 twitter
               </a>{" "}
               for the fastest response
