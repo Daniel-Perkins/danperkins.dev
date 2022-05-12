@@ -1,11 +1,11 @@
 const MyWork = () => {
   return (
-    <div className="flex flex-col items-center m-16 mt-24">
-      <div className="flex flex-col items-center m-16">
+    <div className="flex flex-col items-center md:m-16 md:mt-24">
+      <div className="flex flex-col items-center md:m-16">
         <h1 className="text-3xl">My Work</h1>
       </div>
-      <div className="flex justify-around mx-32 font-light">
-        <div className="flex flex-col justify-between w-1/3 h-64">
+      <div className="flex flex-col justify-around m-16 font-light md:mx-0 md:flex-row">
+        <div className="flex flex-col justify-between h-64 mb-12 md:w-1/3">
           <p>
             This section is currently a work in progress. As I complete more
             websites and projects I will update this section. Check back later
@@ -19,7 +19,7 @@ const MyWork = () => {
             Twitter
           </a>
         </div>
-        <div className="flex flex-col justify-between w-1/3 h-64">
+        <div className="flex flex-col justify-between h-64 md:w-1/3">
           <p>
             My work also gets posted on github. If you would like to see my
             source code or just take a look behind the scenes you can see it
